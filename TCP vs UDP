@@ -16,7 +16,7 @@
 - Connection based (must establish the connection first)
 
 ## Used for:
-= Websites (HTTP/HTTPs)
+- Websites (HTTP/HTTPs)
 - Email (SMTP, IMAP)
 - File Downloads
 - SSH (remote access)
@@ -33,7 +33,7 @@
 
 ## Features
 - Faster 
-= Less reliable
+- Less reliable
 - No connection setup
 
 ## Used for:
