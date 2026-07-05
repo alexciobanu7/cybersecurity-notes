@@ -43,8 +43,10 @@ Login:
 - usr: anonymous
 - psw: blank
 
-## Here are the commands I used in the FTP server to capture the flagL
+## Other FTP commands
 
 > ls
+Listing files i found a txt file named flag.txt. So after that, i had to take the flag typing:
+> less flag.txt
 
 
