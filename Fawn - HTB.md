@@ -44,8 +44,8 @@ Login:
 - psw: blank
 
 ## Other FTP commands
-
 > ls
+
 Listing files i found a txt file named flag.txt. So after that, i had to take the flag typing:
 > less flag.txt
 
