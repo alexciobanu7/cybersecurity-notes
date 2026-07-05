@@ -25,19 +25,19 @@
 
 ## Connection checking
 
-> ping <target ip>
+> ping 'target ip'
 
 The purpose of this command is to verity if the target connection is reachable.
 
 ## Scan for ports
 
-> nmap -sV <target ip>
+> nmap -sV 'target ip'
 
 The '-sV' identifies the version of services 
 
 ## FTP access
 
-> ftp <target ip>
+> ftp 'target ip'
 
 Login:
 - usr: anonymous
