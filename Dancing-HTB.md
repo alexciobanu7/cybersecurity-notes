@@ -35,7 +35,7 @@ credentials.
 
 ## Enumeration
 
-> nmap -sV <target_ip>
+> nmap -sV 'target ip'
 
 Expected to find:
 - 139/tcp open netbios-ssn
@@ -45,13 +45,13 @@ This indicates SMB is running.
 
 ## Enumeratiog SMB shares
 
-> smbclient -L <target_ip>
+> smbclient -L 'target ip'
 
 -L   = List shares. Discovers available shares.
 
 ## Connecting to a share 
 
-> smbclient \\\\<target_ip>\\WorkShares
+> smbclient \\\\'target ip'\\WorkShares
 
 This opens an SMB session to the share.
 
