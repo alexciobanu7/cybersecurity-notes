@@ -23,4 +23,28 @@
 
 ## Enumeration
 
-## 
+## Connection checking
+
+> ping <target ip>
+
+The purpose of this command is to verity if the target connection is reachable.
+
+## Scan for ports
+
+> nmap -sV <target ip>
+
+The '-sV' identifies the version of services 
+
+## FTP access
+
+> ftp <target ip>
+
+Login:
+- usr: anonymous
+- psw: blank
+
+## Here are the commands I used in the FTP server to capture the flagL
+
+> ls
+> 
+
