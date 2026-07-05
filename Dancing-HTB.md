@@ -61,7 +61,7 @@ This opens an SMB session to the share.
 
 Typing ls i found two directories. One for Amy.J and one for James.P
 
-In the Amy.J one i found the flag
+In the James.P one i found the flag
 
 
 
