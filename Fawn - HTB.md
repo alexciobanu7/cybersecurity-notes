@@ -1,6 +1,6 @@
 # Fawn HTB starting point
 
-## Objective
+## Target
 - Discover an exposed FTP service
 - Abuse anonymous FTP login
 - Download the flag
