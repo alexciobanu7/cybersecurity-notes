@@ -1,6 +1,6 @@
 # Dancing - HTB starting point
 
-## Objective 
+## Target 
 - Enumerate SMG shares
 - Connect to an accessible share
 - Find the flag
