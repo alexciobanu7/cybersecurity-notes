@@ -68,9 +68,9 @@ After that I listed all the keys present in the database using the command:
 
 Example of the outcome:
 > temp
-> users
-> flag
-> session
+users
+flag
+session>
 
 
 
