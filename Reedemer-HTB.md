@@ -56,7 +56,7 @@ Upon the successful connection with the Redis server, i had to use the info comm
 There was keyspace section, which provides statistics on the main dictionary of each database. The statistics include the number of keys, and the number of keys with an expiration.
 
 Example:
-> # Keyspace
+> Keyspace
 > db0:key=4, expires=0, avg_ttl=0
 
 In my case, under the Keyspace section, I can see that only one database exists with index 0. So I used the select command followed by the index number of the database that needs to be selected:
