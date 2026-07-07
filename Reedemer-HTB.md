@@ -67,11 +67,14 @@ After that I listed all the keys present in the database using the command:
 > keys *
 
 Example of the outcome:
+1) "temp"
+2) "stor"
+3) "numb"
+4) "flag"
 
->- temp
->- users
->- flag
->- session
+## Capture the flag
+> get flag
+
 
 
 
