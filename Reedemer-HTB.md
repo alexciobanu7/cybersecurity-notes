@@ -67,12 +67,12 @@ After that I listed all the keys present in the database using the command:
 > keys *
 
 Example of the outcome:
->
+
 temp
 users
 flag
 session
-> 
+
 
 
 
