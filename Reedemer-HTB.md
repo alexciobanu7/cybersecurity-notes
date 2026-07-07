@@ -41,6 +41,38 @@
 ## Expected resut
 > 6379/tcp open redis
 
+## Connecting to Redis
+Before connecting to Redis I wanted to inform myself more about it and view its help page by typing:
+> redis-cli --help
+
+After that, I needed to use the following switch for specifying the host that I need to connect to:
+> redis-cli -h 'target ip'
+
+-h = hostname
+
+Upon the successful connection with the Redis server, i had to use the info command, which returns information and statistics about the Redis server:
+> 10.10.10.127:6379 info
+
+There was keyspace section, which provides statistics on the main dictionary of each database. The statistics include the number of keys, and the number of keys with an expiration.
+
+Example:
+> # Keyspace
+> db0:key=4, expires=0, avg_ttl=0
+
+In my case, under the Keyspace section, I can see that only one database exists with index 0. So I used the select command followed by the index number of the database that needs to be selected:
+>select 0
+
+And it should come up with a message "OK"
+After that I listed all the keys present in the database using the command:
+> keys *
+
+Example of the outcome:
+> temp
+> users
+> flag
+> session
+
+
 
 
 
