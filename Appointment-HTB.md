@@ -48,11 +48,11 @@ The query becomes:
 
 # Common SQL Injection Characters:
 
-> '
-> "
-> ;
-> --
-> #
+'
+"
+;
+--
+#
 
 
 
