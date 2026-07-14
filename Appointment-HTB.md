@@ -52,7 +52,7 @@ The query becomes:
 - "
 - ;
 - --
-- #
+- '#'
 
 
 
